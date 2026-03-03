@@ -5,11 +5,11 @@ The objective of the PalindromeChecker App is to design and implement a console-
 
 ## 📂 Project Structure
 
-The project is divided into use cases, each contained in its own Java file for clarity and progression:
+The project is divided into use cases, each contained in its own branch for clarity and progression:
 
 ```
 └── 📁PalindromeCheckerApp-STEP
-    ├── PalindromeCheckerApp.java
+    └── PalindromeCheckerApp.java
 ```
 
 ## 🛠️ Key Concepts Covered
@@ -25,13 +25,14 @@ To run any specific use case, follow these steps in your terminal:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone [https://github.com](https://github.com/Garv767/PalindromeCheckerApp-STEP)
    cd PalindromeCheckerApp-Step
 
 2. **Compile a specific Use Case (e.g., UC13):**
     ```bash
-    javac UseCase13PalindromeCheckerApp.java
+    git checkout feature/UC13
+    javac PalindromeCheckerApp.java
 
 3. **Run the application:**
     ```bash
-    java UseCase13PalindromeCheckerApp
+    java PalindromeCheckerApp
