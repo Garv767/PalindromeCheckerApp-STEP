@@ -20,11 +20,9 @@ public class UseCase12PalindromeCheckerApp {
 
         System.out.println("Testing with Input: " + testInput);
 
-        // Inject Stack Strategy at runtime
         checker.setStrategy(new StackStrategy());
         System.out.println("Using Stack Strategy: " + checker.check(testInput));
 
-        // Inject Deque Strategy at runtime
         checker.setStrategy(new DequeStrategy());
         System.out.println("Using Deque Strategy: " + checker.check(testInput));
     }
@@ -35,10 +33,7 @@ interface PalindromeStrategy {
     boolean isPalindrome(String input);
 }
 
-/**
- * CLASS - StackStrategy
- * Implementation using the Stack data structure.
- */
+
 class StackStrategy implements PalindromeStrategy {
     @Override
     public boolean isPalindrome(String input) {
@@ -58,10 +53,7 @@ class StackStrategy implements PalindromeStrategy {
     }
 }
 
-/**
- * CLASS - DequeStrategy
- * Implementation using the Deque (Double-Ended Queue) data structure.
- */
+
 class DequeStrategy implements PalindromeStrategy {
     @Override
     public boolean isPalindrome(String input) {
