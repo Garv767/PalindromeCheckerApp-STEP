@@ -25,7 +25,7 @@ import java.util.Deque;
  * @author Developer
  * @version 7.0
  */
-public class UseCase7PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     /**
      * Application entry point for UC7.
