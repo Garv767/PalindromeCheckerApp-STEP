@@ -16,7 +16,7 @@
  * 
  * The goal is to establish a clear startup flow.
  * 
- * @author Developer
+ * @author Garv
  * @version 1.0
  */
 public class UseCase1PalindromeCheckerApp {
