@@ -1,5 +1,12 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
-  "postCreateCommand": "sudo apk update && sudo apk add --no-cache git-flow"
+  "postCreateCommand": "sudo apk update && sudo apk add --no-cache git-flow",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jmkrivocapich.drawfolderstructure"
+      ]
+    }
+  }
 }
