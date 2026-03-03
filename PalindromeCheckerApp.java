@@ -19,7 +19,7 @@
  * @author Garv
  * @version 1.0
  */
-public class UseCase1PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     /**
      * Application entry point.
@@ -30,10 +30,8 @@ public class UseCase1PalindromeCheckerApp {
      * @param args Command-line arguments
      */
     public static void main(String[] args) {
-        // --- Application Branding ---
         System.out.println("   PALINDROME CHECKER MANAGEMENT SYSTEM\n\n");
         
-        // --- Welcome Message ---
         System.out.println("Welcome! Ready to verify string symmetries.");
         
         System.out.println("System Version: 1.0\n\n");
