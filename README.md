@@ -9,19 +9,7 @@ The project is divided into use cases, each contained in its own Java file for c
 
 ```
 └── 📁PalindromeCheckerApp-STEP
-    ├── UseCase10PalindromeCheckerApp.java
-    ├── UseCase11PalindromeCheckerApp.java
-    ├── UseCase12PalindromeCheckerApp.java
-    ├── UseCase13PalindromeCheckerApp.java
-    ├── UseCase1PalindromeCheckerApp.java
-    ├── UseCase2PalindromeCheckerApp.java
-    ├── UseCase3PalindromeCheckerApp.java
-    ├── UseCase4PalindromeCheckerApp.java
-    ├── UseCase5PalindromeCheckerApp.java
-    ├── UseCase6PalindromeCheckerApp.java
-    ├── UseCase7PalindromeCheckerApp.java
-    ├── UseCase8PalindromeCheckerApp.java
-    └── UseCase9PalindromeCheckerApp.java
+    ├── PalindromeCheckerApp.java
 ```
 
 ## 🛠️ Key Concepts Covered
