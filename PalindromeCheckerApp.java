@@ -27,7 +27,7 @@ import java.util.Stack;
  * @author Developer
  * @version 6.0
  */
-public class UseCase6PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     /**
      * Application entry point for UC6.
