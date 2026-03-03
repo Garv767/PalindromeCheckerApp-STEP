@@ -21,7 +21,7 @@ import java.util.LinkedList;
  * @author Developer
  * @version 8.0
  */
-public class UseCase8PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     /**
      * Application entry point for UC8.
