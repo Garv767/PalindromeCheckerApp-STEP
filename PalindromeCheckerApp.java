@@ -11,7 +11,7 @@ import java.util.Deque;
  * @author Garv
  * @version 12.0
  */
-public class UseCase12PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     public static void main(String[] args) {
         String testInput = "madam";
