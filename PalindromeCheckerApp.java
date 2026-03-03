@@ -1,51 +1,54 @@
 /**
- * MAIN CLASS - UseCase3PalindromeCheckerApp
+ * MAIN CLASS - UseCase4PalindromeCheckerApp
  * 
- * Use Case 3: Reverse String Based Palindrome Check
+ * Use Case 4: Character Array Based Validation
  * 
  * Description:
- * This class checks whether a string is a palindrome
- * by reversing the string and comparing it with 
- * the original value.
+ * This class validates a palindrome by converting
+ * the string into a character array and comparing
+ * characters using the two-pointer technique.
  * 
  * At this stage, the application:
- * - Iterates the string in reverse order
- * - Builds a reversed version
- * - Compares original and reversed strings
- * - Displays the validation result
+ * - Converts string to char array
+ * - Uses start and end pointers
+ * - Compares characters efficiently
+ * - Displays the result
  * 
- * This introduces transformation-based validation.
+ * This reduces extra memory usage.
  * 
  * @author Developer
- * @version 3.0
+ * @version 4.0
  */
-public class PalindromeCheckerApp {
+public class UseCase4PalindromeCheckerApp {
 
     /**
-     * Application entry point for UC3.
+     * Application entry point for UC4.
      * 
      * @param args Command-line arguments
      */
     public static void main(String[] args) {
-        // Predefined input for validation
-        String input = "radar";
-        String reversed = "";
+        String input = "level";
+        
+        char[] charArray = input.toCharArray();
+        
+        int start = 0;
+        int end = charArray.length - 1;
+        boolean isPalindrome = true;
 
-        System.out.println("Original String: " + input);
-
-        // Iterate from the last character to the first.
-        for (int i = input.length() - 1; i >= 0; i--) {
-            // Building the reversed version of the string
-            reversed += input.charAt(i);
+        while (start < end) {
+            if (charArray[start] != charArray[end]) {
+                isPalindrome = false;
+                break; // Mismatch found, exit early
+            }
+            start++; // Move forward from start
+            end--;   // Move backward from end
         }
 
-        System.out.println("Reversed String: " + reversed);
-
-        // Compares original and reversed strings
-        if (input.equalsIgnoreCase(reversed)) {
-            System.out.println("Validation: SUCCESS. The string is a palindrome.");
+        System.out.println("Input Array: " + java.util.Arrays.toString(charArray));
+        if (isPalindrome) {
+            System.out.println("Result: Success! '" + input + "' is a palindrome.");
         } else {
-            System.out.println("Validation: FAILURE. The string is NOT a palindrome.");
+            System.out.println("Result: Failure! '" + input + "' is not a palindrome.");
         }
     }
 }
