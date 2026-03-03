@@ -25,7 +25,7 @@ To run any specific use case, follow these steps in your terminal:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com](https://github.com/Garv767/PalindromeCheckerApp-STEP)
+   git clone https://github.com/Garv767/PalindromeCheckerApp-STEP
    cd PalindromeCheckerApp-Step
 
 2. **Compile a specific Use Case (e.g., UC13):**
