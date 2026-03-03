@@ -14,7 +14,7 @@ import java.util.Deque;
  * @author Garv
  * @version 13.0
  */
-public class UseCase13PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
 
     public static void main(String[] args) {
