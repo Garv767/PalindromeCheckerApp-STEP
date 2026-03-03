@@ -14,7 +14,7 @@ import java.util.Scanner;
  * @author Developer
  * @version 10.0
  */
-public class UseCase10PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
